@@ -1,0 +1,89 @@
+/*
+	PALINDROME
+*/
+
+/*
+Bài 1: Kiểm tra Palindrome
+
+function is_palindrome(s: string): boolean;
+var i, n : integer;
+begin
+	n := length(s);
+	for i := 1 to (n div 2) do
+		if s[i] <> s[n+1-i] 
+		then exit(false);
+	exit(true); 
+end;
+*/
+
+/*
+Bài 2: Xâu con Palindrome dài nhất
+
+FillChar( F, sizeof(F), false );
+for i := 1 to n do
+	F[i, i] := True;
+for k := 1 to (n-1) do
+	for i := 1 to (n-k) do
+	begin
+		j := i + k;
+		F[i, j] := ( F[i+1, j-1] ) 
+				and ( s[i] = s[j] );
+	end;
+-----
+Procedure Lam;
+var i, j : Longint ;
+
+procedure try( first, last : Longint );
+var dd : Longint;
+begin
+	if first = last then
+	begin 
+		dd := 1; 
+		dec(first); 
+		inc(last); 
+	end
+	else dd := 0;
+		repeat
+			if (first < 1) or (last > N) then break; 
+			if s[i] = s[j] then
+			begin
+				dd := dd + 2;
+				first := first - 1;
+				last := last + 1;
+			end
+			else break;
+		until false;
+	if max < dd then max := dd;
+end;
+
+begin
+	i := n div 2;
+	j := n div 2 + 1;
+	max := 1;
+	while (i > max div 2) and (j <= N-max div 2) do
+	begin
+		if i > max div 2 then
+		begin
+			try( i, i );
+			try( i, i+1 );
+		end;
+		if j <= N - max div 2 then
+		begin
+			try( j, j );
+			try( j, j+1 );
+		end;
+		i := i - 1;
+		j := j + 1;
+	end;
+end;
+*/
+
+/*
+Bài 3: Chia một xâu thành ít nhất các Palindrome
+
+F[0] := INFINITY;
+for i := 1 to n do
+	for j := i-1 downto 0 do
+		if (isPalindrome(j+1, i)) 
+		then F[i] := min(F[i], F[j]+1);
+*/

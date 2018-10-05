@@ -1,0 +1,11 @@
+
+Bài toán: Các công việc được thực hiện trên máy A
+	rồi chuyển sang máy B. Tìm cách thực hiện hết
+	tất cả các công việc với thời gian ít nhất.
+	
+Chia các công việc thành 2 phần:
+	SA gồm các công việc có thời gian thực hiẹn a<=b
+	SB gồm các công việc có thời gian thực hiẹn a>b
+	Sắp xếp SA tăng/không giảm theo a
+	Sắp xếp SB giảm/không tắng theo b
+	Nối SA và SB lại ta được tiến trình thực hiện.

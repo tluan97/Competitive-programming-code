@@ -1,0 +1,26 @@
+
+Các lỗi thường gặp
+
++ Lỗi từ vựng : viết sai tên hàm, tên biến, ...
++ Lỗi cú pháp : đặt dấu ngoặc không cân, ...
++ Lỗi ngữ nghĩa : truyền thiếu tham số cho hàm, 
+	truyền tham số sai kiểu, ...
++ Lỗi logic : 
+- Vượt quá giới hạn của kiểu dữ liệu, của mảng
+- Chưa khởi tạo nội dung
+- Sai tên file input, output
+- Quy hoạch động mà không lưu giá trị
+- Đề bài có chi tiết "hiểm", có input "hiểm"
+- Không kiểm tra hết các trường hợp của test
+- Modulo cho số âm
+- Truy cập bất hợp pháp
+- Nhầm lẫn giữa mảng đánh số từ 1 với mảng đánh số từ 0
+- Nhầm lẫn trục x với trục y
+- Sai số của số thực
+	để biến đổi số thực thành số nguyên x = int (y+0.5);
+	dùng kiểu double thay cho float;
+	dùng hằng số epsilon để so sánh hai số;
+	hạn chế tối đa việc sử dụng số thực;
+- Nhầm độ phức tạp của hàm
+- Nhầm chỉ số với phần tử
+- Hàm không được thực hiện trong phép and, or

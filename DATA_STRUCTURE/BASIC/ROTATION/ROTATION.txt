@@ -1,0 +1,4 @@
+
+prefix rotation : root-left-right
+infix rotation : left-root-right
+postfix rotation : left-right-root

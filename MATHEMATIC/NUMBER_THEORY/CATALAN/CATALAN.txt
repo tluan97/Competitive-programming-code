@@ -1,0 +1,10 @@
+
+https://en.wikipedia.org/wiki/Catalan_number
+
+Cat(n) = sum(i=0->n-1) C(i)*C(n-i-1)
+Cat(n) = 1/(n+1) * C(2n,n)
+Cat(n) = (2n)!/(n!*(n+1)!)
+Cat(n) = (2n*(2n-1))/((n+1)*n)*Cat(n-1)
+
+0 1 2 3  4  5   6   7
+1 1 2 5 14 42 132 429
