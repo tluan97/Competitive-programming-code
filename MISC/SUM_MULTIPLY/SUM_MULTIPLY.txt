@@ -1,4 +1,0 @@
-
-SUM	= d*(a+b)/2
-
-MULTIPLY = (b*(k-a))/(k-1)

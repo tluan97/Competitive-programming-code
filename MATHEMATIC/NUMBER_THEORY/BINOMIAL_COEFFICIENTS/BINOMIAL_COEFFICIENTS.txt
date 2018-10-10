@@ -1,7 +1,0 @@
-
-https://en.wikipedia.org/wiki/Binomial_coefficient
-
-C(n,k) = (n!)/((n-k)!*k!)
-C(n,0) = C(n,n) = 1 // base cases
-C(n,k) = C(n-1,k-1)+C(n-1,k) 
-	// take or ignore an item, n > k > 0.
