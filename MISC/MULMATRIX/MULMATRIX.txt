@@ -1,0 +1,22 @@
+/*
+	MULMATRIX
+*/
+
+/*
+for i:=1 to n do
+	F[i,i]:=0;
+for i:=1 to n-1 do
+	F[i,i+1] := d[i-1]*d[i]*d[i+1];
+for m:=2 to n-1 do
+begin
+	for i:=1 to n-m do
+	begin
+		j:=i+m;
+		F[i,j]:=oo;
+		for k:=i+1 to j-1 do
+			F[i,j]:=min(F[i,j], 
+			F[i,k]+F[k+1,j]+d[i-1]*d[k]*d[j]);
+	end;
+end;
+*/
+

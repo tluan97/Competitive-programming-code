@@ -1,0 +1,11 @@
+
+Các cách truy vết:
+
+1. Dùng dấu hiệu: Dùng dấu hiệu 
+	F[i'][j'] = F[i][j] + a[i][j]. 
+	Mỗi khi đến ô (i,j), ta tìm ô (i',j') 
+	thỏa mãn dấu hiệu trên. 
+2. Lưu hướng đi: 
+	Dùng mảng T để đánh dấu hướng đi.
+3. Viết mã truy vết trong hàm quy hoạch động: 
+	Dùng trong đệ quy xuất trực tiếp.

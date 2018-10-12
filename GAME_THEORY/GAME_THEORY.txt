@@ -1,0 +1,11 @@
+
+GAME_THEORY
+
+- Tất cả các vị trí kết thúc đều thuộc P.
+- Từ mỗi vị trí thuộc N luôn có ít nhất 
+	một di chuyển tới vị trí thuộc P.
+- Từ một vị trí thuộc P, mọi di chuyển 
+	đều tới vị trí thuộc N.
+
+Tổng Nim
+Tích Nim

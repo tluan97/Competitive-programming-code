@@ -1,0 +1,57 @@
+
+MAX_FLOW_GOMORYHU
+	* find min cut between every pair of vertices 
+		using N max_flow call (instead of N^2)
+	* not tested with directed graph
+	* index from 0
+
+MAX_FLOW_MINCUT
+	* Minimum cut between every pair 
+		of vertices (Stoer Wagner)
+
+MAX_FLOW_FASTEST
+	* fastest flow
+	* does not work with directed graph
+	* index from 0, directed
+	* can get trace
+
+MAX_FLOW_BASIC
+	* basic flow
+	* can work with directed graph
+	* index from 0, directed
+	* can get trace
+	
+MIN_COST_BASIC
+	* basic slow version (Ford Bellman)
+	* can work with negative edges but not loop
+	* index from 0, directed
+	* can get trace but very dangerous
+	
+MIN_COST_DIJKSTRA
+	* fast min cost max flow (Dijkstra)
+	* can NOT work with negative edges
+	* index from 0, directed
+	* can get trace but very dangerous
+	
+MIN_COST_SPFA
+	* min cost max flow
+	* can work with negative edges but not loop
+	* index from 0, directed
+	* edges cap changed during find flow
+	
+EDMONDS_KARP_BASIC
+	* basic flow
+	
+EDMONDS_KARP_MINCOST
+	* basic min cost max flow
+	
+EDMONDS_KARP_MINCUT
+	* basic minimum cut
+
+EDMONDS_KARP_MULTI_VERTEX
+	* multi source, multi sink
+	* vertex capacities
+	
+DINITZ
+	* basic flow
+	
