@@ -1,6 +1,6 @@
 /*
 	SUM_OF_DIGITS
-	tested
+	https://open.kattis.com/problems/digitsum
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -24,12 +24,44 @@ LL sumDigits(LL n){
 	return t*sd[d]+(t*(t-1)/2)*p+
 		t*(1+n%p)+sumDigits(n%p);
 }
-
 void test_(){
 	init_sumDigits();
-	assert(sumDigits(328)==3241);
+	int test; cin>>test;
+	LL u,v;
+	while (test--){
+		cin>>u>>v;
+		cout<<sumDigits(v)-sumDigits(u-1)<<"\n";
+	}
 }
+
+LL sumDigitBF(LL n){
+	LL res=0;
+	while (n){
+		res+=n%10;
+		n/=10;
+	}
+	return res;
+}
+LL sumDigit(LL n){
+	if (n<=0) return 0;
+	LL res;
+	if (n%10==0){
+		res=10LL*sumDigit(n/10)+45LL*(n/10);
+	} else {
+		res=sumDigit(n-1)+sumDigitBF(n-1);
+	}
+	return res;
+}
+LL u,v;
 int main(){
-	test_();
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+	
+	int test; cin>>test;
+	while (test--){
+		cin>>u>>v;
+		cout<<sumDigit(v+1)-sumDigit(u)<<"\n";
+	}
+	
 	return 0;
 }
