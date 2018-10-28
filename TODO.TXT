@@ -1,7 +1,5 @@
 
 @TODO
-{	
-	kc97blf
-		continue FC 49 (t5)
+{
 	live algorithm
 }
