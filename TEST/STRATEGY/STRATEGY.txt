@@ -1,0 +1,10 @@
+V?n duy trì team 1 coder, 2 support
+M? d?u v?n là tháo ghim và chia d? d?c
+Ð?n khi có bài ac thì team s? t?p trung dua ra solution bài dó.
+N?u th?ng nh?t d? code r thì:
++ N?u d? thì 1 sup d?c d? khác, 1 sup h? tr? code
++ Khó thì 2 sup h? tr? coder
+Ð?n giai do?n bão hòa =)) (ch?c là lúc submit wa,lte các ki?u sm v?i debug, là kho?ng 3 ti?ng còn l?i ?y).
++ C? team cùng nghi 1 bài
++ B?t d?u vote d? debug ho?c chuy?n sang bài m?i
++ Vote dành nhiêu phút d? debug (tránh m?t th?i gian nhu bài B hôm qua)
