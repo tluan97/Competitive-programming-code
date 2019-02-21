@@ -1,2 +1,3 @@
-# LIBRARY
-Code library 2017-2018
+# Competitive programming code
+
+Code library 2016-2019
