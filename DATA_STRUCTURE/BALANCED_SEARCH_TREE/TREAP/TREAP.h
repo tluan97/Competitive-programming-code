@@ -126,6 +126,10 @@ node* pred(int key) {
 	}
 	return ans;
 }
+int size(node* x){
+    if (x==NIL) return 0;
+    return 1+size(x->l)+size(x->r);
+}
 void CPPSET(){
 	init();
 	int n, x;
