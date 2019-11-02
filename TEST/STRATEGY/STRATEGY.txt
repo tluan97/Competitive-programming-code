@@ -1,10 +1,10 @@
-V?n duy tr� team 1 coder, 2 support
-M? d?u v?n l� th�o ghim v� chia d? d?c
-�?n khi c� b�i ac th� team s? t?p trung dua ra solution b�i d�.
-N?u th?ng nh?t d? code r th�:
-+ N?u d? th� 1 sup d?c d? kh�c, 1 sup h? tr? code
-+ Kh� th� 2 sup h? tr? coder
-�?n giai do?n b�o h�a =)) (ch?c l� l�c submit wa,lte c�c ki?u sm v?i debug, l� kho?ng 3 ti?ng c�n l?i ?y).
-+ C? team c�ng nghi 1 b�i
-+ B?t d?u vote d? debug ho?c chuy?n sang b�i m?i
-+ Vote d�nh nhi�u ph�t d? debug (tr�nh m?t th?i gian nhu b�i B h�m qua)
+Vẫn duy trì team 1 coder, 2 support
+Mở đầu vẫn là tháo ghim và chia đề đọc
+Đến khi có bài ac thì team sẽ tập trung đưa ra solution bài đó
+Nếu thống nhất được code rồi thì:
++ Nếu dễ thì 1 sup đọc đề bài khác, 1 sup hỗ trợ code
++ Khó thì 2 sup hỗ trợ coder
+Đến giai đoạn bão hòa (submit wa, tle, debug, 3 tiếng còn lại ...)
++ Cả team cùng nghĩ 1 bài
++ Bắt đầu vote để debug hay chuyển sang bài khác
++ Vote dành nhiêu phút để debug (tránh mất thời gian vào 1 bài)
